@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Job Application</title>
+</head>
+<body>
+  <h1>Job Application</h1>
+
+  <form id="applyForm">
+    <input name="firstName" placeholder="First name" required /><br/><br/>
+    <input name="lastName" placeholder="Last name" required /><br/><br/>
+    <input name="email" type="email" placeholder="Email" required /><br/><br/>
+    <input name="phone" placeholder="Phone (optional)" /><br/><br/>
+    <textarea name="notes" placeholder="Notes (optional)"></textarea><br/><br/>
+
+    <label>CV (PDF / DOC / DOCX)</label><br/>
+    <input name="cv" type="file" required /><br/><br/>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <p id="status"></p>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
